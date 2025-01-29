@@ -228,11 +228,7 @@ function CNN() {
       <h1 className="main-title">Commonly Searches Symptoms</h1>
       <p className="sub-title">
           The <strong>Convolutional Neural Network (CNN)</strong> 
-<<<<<<< HEAD
           In application, we utilize CNNs to analyze of various animals and predict their symptoms based on the images.
-=======
-          In this application, we utilize CNNs to analyze images of various animals and predict their symptoms based on the images.
->>>>>>> be089fe53da54f6088ded8af7162f728410ed7e3
       </p>
     </div>
   </div>
