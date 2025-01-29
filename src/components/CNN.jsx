@@ -227,9 +227,7 @@ function CNN() {
     <div className="header">
       <h1 className="main-title">Commonly Searches Symptoms</h1>
       <p className="sub-title">
-          The <strong>Convolutional Neural Network (CNN)</strong> is a deep learning algorithm primarily used for image processing. 
-          It works by processing data with a grid-like topology, such as images, through multiple layers of interconnected nodes. 
-          Each layer extracts features from the input data, which are then used to make predictions. 
+          The <strong>Convolutional Neural Network (CNN)</strong> 
           In this application, we utilize CNNs to analyze images of various animals and predict their symptoms based on the images.
       </p>
     </div>
