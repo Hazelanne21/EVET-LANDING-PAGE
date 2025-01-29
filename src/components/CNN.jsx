@@ -8,6 +8,8 @@ import petImage5 from "../assets/respiratory.jpg";
 import petImage6 from "../assets/digestion.jpg";
 import petimage from '../assets/cnn.png';
 import petimages from '../assets/softmax.png';
+import petimage7 from '../assets/DogDisease.png';
+import petimage8 from '../assets/CatDisease.png';
 
 
 
@@ -230,6 +232,12 @@ function CNN() {
           The <strong>Convolutional Neural Network (CNN)</strong> 
           In application, we utilize CNNs to analyze images of various animals and predict their symptoms based on the images.
       </p>
+      <div className="cnn-image">
+                  <img src={petimage7} alt=" Pet" />
+        </div>
+        <div className="cnn-image">
+                  <img src={petimage8} alt=" Pet" />
+        </div>
     </div>
   </div>
 );
