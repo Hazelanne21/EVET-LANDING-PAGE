@@ -64,17 +64,16 @@ function About() {
           We’re here to help! If you have any questions, don’t hesitate to reach out to our friendly support team.
         </p>
         <div className="email-links">
-          {[profile, profile2, profile3].map((image, index) => (
+          {[profile, profile2].map((image, index) => (
             <div key={index} className="contact-card">
               <img src={image} alt="Team member" className="contact-image" />
               <div className="contact-details">
-                <h3>{["Jean Marie Bercasio", "Hazel Anne Naval", "Ronel Simon"][index]}</h3>
+                <h3>{["Jean Marie Bercasio", "Hazel Anne Naval"][index]}</h3>
                 <p className="contact-role">Program Chair - BSCS</p>
                 <a
                   href={`https://mail.google.com/mail/?view=cm&fs=1&to=${[
                     "jmbercasio",
                     "hanaval",
-                    "rsimon",
                   ][index]}@gbox.ncf.edu.ph&su=Support%20Request`}
                   target="_blank"
                   rel="noopener noreferrer"
