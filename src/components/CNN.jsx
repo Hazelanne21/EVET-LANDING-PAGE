@@ -184,8 +184,8 @@ function CNN() {
       </p>
       <p className="sub-titles">• Assume a model outputs three logits: z=[2.0,1.0,0.1]​</p>
       <p className="sub-titles">• Compute exponentials:ez1​=e2.0≈7.39,   ez2​=e1.0≈2.72,     ez3​=e0.1≈1.11</p>
-      <p className="sub-titles">• Compute probabilities:  Softmax(z1​)=7.39+2.72+1.117.39​≈0.64,</p>
-      <p className="sub-titles">• Softmax(z2​)≈0.24, Softmax(z3​)≈0.10.</p>
+      <p className="sub-titles">• Compute probabilities:  Softmax(z1​)=7.39+2.72+1.11≈ 11.22</p>
+      <p className="sub-titles">• Softmax(z1​) 7.39/11.22​≈0.64, Softmax(z2​)≈0.24, Softmax(z3​)≈0.10.</p>
       <p className="sub-titles">• The model predicts class 1 with 64% confidence.</p>
       </div>
       
